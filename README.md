@@ -11,6 +11,13 @@ $ node wordbind_solver.js <path/to/dictionary.txt> <word one> <word two> <option
 $ node wordbind_solver.js ./words_alpha.txt obsecrate rosebud 6
 ```
 
+This also includes a utility to join dictionary files together:
+
+```bash
+# Accepts any number of dictionary files, will always output to output.txt
+$ node dictionary_joiner.js <path/to/dictionary1.txt> <path/to/dictionary2.txt> <path/to/...>
+```
+
 ## Word Lists
 
 spelltower list: <https://github.com/stringham/Spell-tower-solver>
